@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="JAVA" bpmnAble="false" formTarget="src/main/webapp/views/logged/Cloud/Elastick.view.html" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JAVA" ruleDescription="Elastick" ruleName="Elastick" ruleSynchronous="false" ruleTimeout="300" ruleType="I" showAsFunction="false" soap="false" swagger="false">
+  <metadata scale="1" scrollx="328.6" scrolly="-239" target="lyM}[zrf@Pm?K,n2.rwT"/>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="Wl/dwNC6:@C*hNbt%y2#" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-225" y="276">
+    <mutation>
+      <arg id="731904ab" name="contexto"/>
+    </mutation>
+    <field customattributes="" name="NAME">fechar</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#488e3e" datasourcetype="" dependencyby="Wl/dwNC6:@C*hNbt%y2#" id="l3h6jh75hPi-`i;O8nRe" multilayer="false" namespace="cronapp.elastic.CronappElastic.close" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EElastic%20Search:%20Fechar%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFechar%20contexto%20do%20Elastic%20Search%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Contexto%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Contexto%20do%20Elastic%20Search.%20Se%20nulo,%20usa%20o%20contexto%20da%20aplica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapp.elastic.CronappElastic.close','cronapp.elastic.CronappElastic.close')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn" valueconstant="">
+        <mutation name="{{cronapp.elastic.CronappElastic.close}}" return-raw-type="void">
+          <arg cronapi-raw-type="org.elasticsearch.client.RestHighLevelClient" cronapi-type="ObjectType.OBJECT" name="Contexto"/>
+        </mutation>
+        <value name="ARG0">
+          <block asynccall="false" colour="#487f7f" datasourcetype="" dependencyby="Wl/dwNC6:@C*hNbt%y2#" id=",=f[;/EctqP,yq{d;|^@" multilayer="false" namespace="cronapi.util.Operations.callBlockly" origintype="procedures_callblockly_callreturn" output="true" returntype="ObjectType.OBJECT" score="3" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EChamar%20Bloco%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20chamar%20um%20bloco%20de%20programa%C3%A7ao%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Bloco%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Nome%20do%20bloco%3C/div%3E%3Cspan%3E%20-%20Par%C3%A2metros%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Par%C3%A2metros%20a%20serem%20passados%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.util.Operations.callBlockly','cronapi.util.Operations.callBlockly')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callblockly_callreturn" valueconstant="">
+            <mutation data="%7B%22name%22:%22Elastick%22,%22class%22:%22blockly.Elastick%22,%22function%22:%22namespace%22,%22oldName%22:%22namespace%22,%22params%22:%22%5B%5C%22space%5C%22%5D%22,%22argumentsIds%22:%5B%22c96efe63%22%5D,%22type%22:%22java%22,%22namespace%22:%22blockly.Elastick%22,%22jsonBlocklySelected%22:%7B%22library%22:false,%22namespace%22:%22blockly.Elastick%22,%22sourcePath%22:%22src/main/java/blockly/Elastick.blockly%22,%22language%22:%22java%22,%22class%22:%22blockly.Elastick%22,%22methods%22:%5B%7B%22name%22:%22Pesquisar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22filtro%22%5D,%22paramsMap%22:%7B%22filtro%22:%228aa2415e%22%7D%7D,%7B%22name%22:%22obterid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22id%22%5D,%22paramsMap%22:%7B%22id%22:%222af3b78e%22%7D%7D,%7B%22name%22:%22atualizaID%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22atualizaid%22,%22conteudo%22%5D,%22paramsMap%22:%7B%22atualizaid%22:%22b443358c%22,%22conteudo%22:%22d30fe43b%22%7D%7D,%7B%22name%22:%22removerid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22idremove%22%5D,%22paramsMap%22:%7B%22idremove%22:%22e3f41863%22%7D%7D,%7B%22name%22:%22fechar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%5D%7D,%7B%22name%22:%22namespace%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22space%22%5D,%22paramsMap%22:%7B%22space%22:%22c96efe63%22%7D%7D,%7B%22name%22:%22criarcontexto%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22namespace%22%5D,%22paramsMap%22:%7B%22namespace%22:%2259b4324f%22%7D%7D,%7B%22name%22:%22inserir%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22conteudo%22%5D,%22paramsMap%22:%7B%22conteudo%22:%2262727e04%22%7D%7D%5D%7D%7D" name="{{cronapi.util.Operations.callBlockly}}">
+              <arg id="c96efe63" name="space"/>
+            </mutation>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="lyM}[zrf@Pm?K,n2.rwT" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-202" y="278">
+    <mutation>
+      <arg id="e3f41863" name="removeid"/>
+      <arg id="8c2a7c31" name="removeindice"/>
+    </mutation>
+    <field customattributes="" name="NAME">removerporid</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#488e3e" datasourcetype="" dependencyby="lyM}[zrf@Pm?K,n2.rwT" id="xyip.jd,|s+xW!#xc|sh" multilayer="false" namespace="cronapp.elastic.CronappElastic.deleteById" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EElastic%20Search:%20Remover%20por%20Id%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3ERemove%20um%20conte%C3%BAdo%20no%20Elastic%20Search%20atrav%C3%A9s%20do%20seu%20Id%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Contexto%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Contexto%20do%20Elastic%20Search.%20Se%20nulo,%20usa%20o%20contexto%20da%20aplica%C3%A7%C3%A3o%3C/div%3E%3Cspan%3E%20-%20%C3%8Dndice%20:%20Texto%3C/span%3E%3Cdiv%3E%20%C3%8Dndice%20usado%3C/div%3E%3Cspan%3E%20-%20Id%20:%20Texto%3C/span%3E%3Cdiv%3E%20Identificador%20do%20Conte%C3%BAdo%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapp.elastic.CronappElastic.deleteById','cronapp.elastic.CronappElastic.deleteById')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn" valueconstant="">
+        <mutation name="{{cronapp.elastic.CronappElastic.deleteById}}" return-raw-type="void">
+          <arg cronapi-raw-type="org.elasticsearch.client.RestHighLevelClient" cronapi-type="ObjectType.OBJECT" name="Contexto"/>
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Índice"/>
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Id"/>
+        </mutation>
+        <value name="ARG0">
+          <block asynccall="false" colour="#487f7f" datasourcetype="" dependencyby="lyM}[zrf@Pm?K,n2.rwT" id=".y@N.Qm_{ZQ9s^:p3m!w" multilayer="false" namespace="cronapi.util.Operations.callBlockly" origintype="procedures_callblockly_callreturn" output="true" returntype="ObjectType.OBJECT" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EChamar%20Bloco%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20chamar%20um%20bloco%20de%20programa%C3%A7ao%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Bloco%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Nome%20do%20bloco%3C/div%3E%3Cspan%3E%20-%20Par%C3%A2metros%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Par%C3%A2metros%20a%20serem%20passados%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.util.Operations.callBlockly','cronapi.util.Operations.callBlockly')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callblockly_callreturn" valueconstant="">
+            <mutation data="%7B%22name%22:%22Elastick%22,%22class%22:%22blockly.Elastick%22,%22function%22:%22criarcontexto%22,%22oldName%22:%22criarcontexto%22,%22params%22:%22%5B%5D%22,%22type%22:%22java%22,%22namespace%22:%22blockly.Elastick%22,%22jsonBlocklySelected%22:%7B%22library%22:false,%22namespace%22:%22blockly.Elastick%22,%22sourcePath%22:%22src/main/java/blockly/Elastick.blockly%22,%22language%22:%22java%22,%22class%22:%22blockly.Elastick%22,%22methods%22:%5B%7B%22name%22:%22fechar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22contexto%22%5D,%22paramsMap%22:%7B%22contexto%22:%22731904ab%22%7D%7D,%7B%22name%22:%22removerporid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22removeid%22,%22removeindice%22%5D,%22paramsMap%22:%7B%22removeid%22:%22e3f41863%22,%22removeindice%22:%228c2a7c31%22%7D%7D,%7B%22name%22:%22inserir%22,%22hasReturn%22:%22false%22,%22params%22:%5B%22indice%22,%22id%22,%22json%22%5D,%22paramsMap%22:%7B%22indice%22:%22a4cd6df6%22,%22id%22:%220a48a060%22,%22json%22:%22ae4e4a48%22%7D%7D,%7B%22name%22:%22atualizaID%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22atualizaid%22,%22conteudo%22,%22indiceatualiza%22%5D,%22paramsMap%22:%7B%22atualizaid%22:%22b443358c%22,%22conteudo%22:%22d30fe43b%22,%22indiceatualiza%22:%22473067da%22%7D%7D,%7B%22name%22:%22Pesquisar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22filtro%22,%22indicepes%22%5D,%22paramsMap%22:%7B%22filtro%22:%228aa2415e%22,%22indicepes%22:%22c826e5d7%22%7D%7D,%7B%22name%22:%22criarcontexto%22,%22hasReturn%22:%22true%22,%22params%22:%5B%5D%7D,%7B%22name%22:%22obterid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22obterid%22,%22obterindice%22%5D,%22paramsMap%22:%7B%22obterid%22:%222af3b78e%22,%22obterindice%22:%22117acfd2%22%7D%7D%5D%7D%7D" name="{{cronapi.util.Operations.callBlockly}}"/>
+          </block>
+        </value>
+        <value name="ARG1">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="lyM}[zrf@Pm?K,n2.rwT" id="Dg|9L.$xa[(0X6fH_$gM" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT"/>
+          </shadow>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="lyM}[zrf@Pm?K,n2.rwT" id="#96[BHuD]~g_hdh2SXul" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+            <field customattributes="" name="VAR">removeindice</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="lyM}[zrf@Pm?K,n2.rwT" id="x1W~y%XQw|UJaaYDvXnk" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT"/>
+          </shadow>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="lyM}[zrf@Pm?K,n2.rwT" id="H!uOAm$BTI@~;d/(|(=l" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+            <field customattributes="" name="VAR">removeid</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="6f~B^DT#50{Kd|vKq/3." origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-153" y="318">
+    <mutation>
+      <arg id="b443358c" name="atualizaid"/>
+      <arg id="d30fe43b" name="conteudo"/>
+      <arg id="473067da" name="indiceatualiza"/>
+    </mutation>
+    <field customattributes="" name="NAME">atualizaID</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#488e3e" datasourcetype="" dependencyby="6f~B^DT#50{Kd|vKq/3." id="+(A-6,*Wajty[)[U]RW0" multilayer="false" namespace="cronapp.elastic.CronappElastic.updateById" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EElastic%20Search:%20Atualiza%20por%20Id%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EAtualiza%20um%20conte%C3%BAdo%20no%20Elastic%20Search%20pelo%20Id%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Contexto%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Contexto%20do%20Elastic%20Search.%20Se%20nulo,%20usa%20o%20contexto%20da%20aplica%C3%A7%C3%A3o%3C/div%3E%3Cspan%3E%20-%20%C3%8Dndice%20:%20Texto%3C/span%3E%3Cdiv%3E%20%C3%8Dndice%20usado%3C/div%3E%3Cspan%3E%20-%20Id%20:%20Texto%3C/span%3E%3Cdiv%3E%20Identificador%20do%20Conte%C3%BAdo%3C/div%3E%3Cspan%3E%20-%20Conte%C3%BAdo%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20String%20que%20ser%C3%A1%20inserida%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapp.elastic.CronappElastic.updateById','cronapp.elastic.CronappElastic.updateById')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn" valueconstant="">
+        <mutation name="{{cronapp.elastic.CronappElastic.updateById}}" return-raw-type="void">
+          <arg cronapi-raw-type="org.elasticsearch.client.RestHighLevelClient" cronapi-type="ObjectType.OBJECT" name="Contexto"/>
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Índice"/>
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Id"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Conteúdo"/>
+        </mutation>
+        <value name="ARG0">
+          <block asynccall="false" colour="#487f7f" datasourcetype="" dependencyby="6f~B^DT#50{Kd|vKq/3." id="P|0}L`JaX.GQpMe/.W2/" multilayer="false" namespace="cronapi.util.Operations.callBlockly" origintype="procedures_callblockly_callreturn" output="true" returntype="ObjectType.OBJECT" score="3" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EChamar%20Bloco%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20chamar%20um%20bloco%20de%20programa%C3%A7ao%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Bloco%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Nome%20do%20bloco%3C/div%3E%3Cspan%3E%20-%20Par%C3%A2metros%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Par%C3%A2metros%20a%20serem%20passados%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.util.Operations.callBlockly','cronapi.util.Operations.callBlockly')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callblockly_callreturn" valueconstant="">
+            <mutation data="%7B%22name%22:%22Elastick%22,%22class%22:%22blockly.Elastick%22,%22function%22:%22criarcontexto%22,%22oldName%22:%22criarcontexto%22,%22params%22:%22%5B%5D%22,%22type%22:%22java%22,%22namespace%22:%22blockly.Elastick%22,%22jsonBlocklySelected%22:%7B%22library%22:false,%22namespace%22:%22blockly.Elastick%22,%22sourcePath%22:%22src/main/java/blockly/Elastick.blockly%22,%22language%22:%22java%22,%22class%22:%22blockly.Elastick%22,%22methods%22:%5B%7B%22name%22:%22fechar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22contexto%22%5D,%22paramsMap%22:%7B%22contexto%22:%22731904ab%22%7D%7D,%7B%22name%22:%22removerporid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22removeid%22,%22removeindice%22%5D,%22paramsMap%22:%7B%22removeid%22:%22e3f41863%22,%22removeindice%22:%228c2a7c31%22%7D%7D,%7B%22name%22:%22atualizaID%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22atualizaid%22,%22conteudo%22,%22indiceatualiza%22%5D,%22paramsMap%22:%7B%22atualizaid%22:%22b443358c%22,%22conteudo%22:%22d30fe43b%22,%22indiceatualiza%22:%22473067da%22%7D%7D,%7B%22name%22:%22inserir%22,%22hasReturn%22:%22false%22,%22params%22:%5B%22indice%22,%22id%22,%22json%22%5D,%22paramsMap%22:%7B%22indice%22:%22a4cd6df6%22,%22id%22:%220a48a060%22,%22json%22:%22ae4e4a48%22%7D%7D,%7B%22name%22:%22Pesquisar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22filtro%22,%22indicepes%22%5D,%22paramsMap%22:%7B%22filtro%22:%228aa2415e%22,%22indicepes%22:%22c826e5d7%22%7D%7D,%7B%22name%22:%22criarcontexto%22,%22hasReturn%22:%22true%22,%22params%22:%5B%5D%7D,%7B%22name%22:%22obterid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22obterid%22,%22obterindice%22%5D,%22paramsMap%22:%7B%22obterid%22:%222af3b78e%22,%22obterindice%22:%22117acfd2%22%7D%7D%5D%7D%7D" name="{{cronapi.util.Operations.callBlockly}}"/>
+          </block>
+        </value>
+        <value name="ARG1">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="6f~B^DT#50{Kd|vKq/3." id="{0%to,}CMxb8S7,AnKes" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT"/>
+          </shadow>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6f~B^DT#50{Kd|vKq/3." id=".DHXiJ|%vatQl+%X]r-L" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+            <field customattributes="" name="VAR">indiceatualiza</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="6f~B^DT#50{Kd|vKq/3." id="/,2NzHfQpE]AOb#!rQrB" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT"/>
+          </shadow>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6f~B^DT#50{Kd|vKq/3." id="9~0K|06m?u_z{5fY{I:@" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+            <field customattributes="" name="VAR">atualizaid</field>
+          </block>
+        </value>
+        <value name="ARG3">
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6f~B^DT#50{Kd|vKq/3." id="xf,uVcD|V2Z8wcK}[1fE" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+            <field customattributes="" name="VAR">conteudo</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#fca03b" datasourcetype="" id="8!eX]uE^V1o+%=y785nG" origintype="procedures_defnoreturn" output="false" score="9007199254740991" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" valueconstant="" x="-111" y="328">
+    <mutation>
+      <arg id="a4cd6df6" name="indice"/>
+      <arg id="0a48a060" name="id"/>
+      <arg id="ae4e4a48" name="json"/>
+    </mutation>
+    <field customattributes="" name="NAME">inserir</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#488e3e" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="]Brwp*f|rnZySdY8LjJU" multilayer="false" namespace="cronapp.elastic.CronappElastic.insert" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EElastic%20Search:%20Inserir%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EInsere%20um%20conte%C3%BAdo%20no%20Elastic%20Search%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Contexto%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Contexto%20do%20Elastic%20Search.%20Se%20nulo,%20usa%20o%20contexto%20da%20aplica%C3%A7%C3%A3o%20%3C/div%3E%3Cspan%3E%20-%20%C3%8Dndice%20:%20Texto%3C/span%3E%3Cdiv%3E%20%C3%8Dndice%20usado%3C/div%3E%3Cspan%3E%20-%20Id%20:%20Texto%3C/span%3E%3Cdiv%3E%20Identificador%20do%20Conte%C3%BAdo%3C/div%3E%3Cspan%3E%20-%20Conte%C3%BAdo%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20String%20que%20ser%C3%A1%20inserida%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapp.elastic.CronappElastic.insert','cronapp.elastic.CronappElastic.insert')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn" valueconstant="">
+        <mutation name="{{cronapp.elastic.CronappElastic.insert}}" return-raw-type="void">
+          <arg cronapi-raw-type="org.elasticsearch.client.RestHighLevelClient" cronapi-type="ObjectType.OBJECT" name="Contexto"/>
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Índice"/>
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Id"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Conteúdo"/>
+        </mutation>
+        <value name="ARG0">
+          <block asynccall="false" colour="#488e3e" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="~vL)~otST6dB0W~qOY-D" multilayer="false" namespace="cronapp.elastic.CronappElastic.configure" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" score="6" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EElastic%20Search:%20Criar%20Contexto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EConfigura%20contexto%20do%20Elastic%20Search%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Namespace%20:%20Texto%3C/span%3E%3Cdiv%3E%20Contexto%20do%20Elastic%20Search.%20Se%20nula,%20o%20id%20da%20aplica%C3%A7%C3%A3o%20ser%C3%A1%20usado%20%3C/div%3E%3Cspan%3E%20-%20Host%20:%20Texto%3C/span%3E%3Cdiv%3E%20Url%20do%20servidor%20do%20Elastic%20Search%3C/div%3E%3Cspan%3E%20-%20Usu%C3%A1rio%20:%20Texto%3C/span%3E%3Cdiv%3E%20Usu%C3%A1rio%20de%20acesso%20ao%20servidor%3C/div%3E%3Cspan%3E%20-%20Senha%20:%20Texto%3C/span%3E%3Cdiv%3E%20Senha%20de%20acesso%20ao%20servidor%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapp.elastic.CronappElastic.configure','cronapp.elastic.CronappElastic.configure')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+            <mutation name="{{cronapp.elastic.CronappElastic.configure}}" return-raw-type="org.elasticsearch.client.RestHighLevelClient">
+              <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Namespace"/>
+              <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Host"/>
+              <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Usuário"/>
+              <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Senha"/>
+            </mutation>
+            <value name="ARG0">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="NI1!NX5R_k`LSW~otm.a" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                <field customattributes="" name="TEXT">default</field>
+              </shadow>
+            </value>
+            <value name="ARG1">
+              <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id=".HphP2t;:J9ujF7%Mr5O" origintype="cloudservices" output="true" prototypeoptions="service:type=elasticsearch-kibana" score="9007199254740991" type="cloudservices" valueconstant="">
+                <field customattributes="" name="SELECT">qaelasticprod.cloud.cronapp.io</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="goa):OaP$ci2=9$M`CC4" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                <field customattributes="" name="TEXT">elastic</field>
+              </shadow>
+            </value>
+            <value name="ARG3">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="b/r69No[pM(hAKBUQTQN" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                <field customattributes="" name="TEXT">PassW0rd</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <value name="ARG1">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="[ia0*T~lA3xP@S1DC4-E" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT"/>
+          </shadow>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="h#(CH{2Ka^y)X5UYM.O6" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+            <field customattributes="" name="VAR">indice</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="ZYWEc6Je{8Z_)4{Z[$34" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT"/>
+          </shadow>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="{;0Aq9FTO=zof=gvAA#[" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+            <field customattributes="" name="VAR">id</field>
+          </block>
+        </value>
+        <value name="ARG3">
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="h|Wf4mCw}4:,:X-6,2:6" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+            <field customattributes="" name="VAR">json</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="^.MF,1:eBkwhH=QtDAGX" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-150" y="349">
+    <mutation>
+      <arg id="8aa2415e" name="filtro"/>
+      <arg id="c826e5d7" name="indicepes"/>
+    </mutation>
+    <field customattributes="" name="NAME">Pesquisar</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id="%N{@*UPF1Fr.xqqAz?Ti" origintype="text_print" output="false" score="9007199254740991" tooltip="Imprime o texto, número ou valor especificado." type="text_print" valueconstant="">
+        <value name="TEXT">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id="Wn=Q`cWeZ*N)ogrUL)8x" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT">abc</field>
+          </shadow>
+          <block asynccall="false" colour="#488e3e" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id=":6*)gFH8A`7zawA5Ck@U" multilayer="false" namespace="cronapp.elastic.CronappElastic.search" origintype="procedures_callreturn" output="true" returntype="ObjectType.LIST" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EElastic%20Search:%20Buscar%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EBusca%20um%20conte%C3%BAdo%20no%20Elastic%20Search%20pelo%20filtro%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Contexto%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Contexto%20do%20Elastic%20Search.%20Se%20nulo,%20usa%20o%20contexto%20da%20aplica%C3%A7%C3%A3o%3C/div%3E%3Cspan%3E%20-%20%C3%8Dndice%20:%20Texto%3C/span%3E%3Cdiv%3E%20%C3%8Dndice%20usado%3C/div%3E%3Cspan%3E%20-%20Deslocamento%20:%20Inteiro%3C/span%3E%3Cdiv%3E%20Ignorar%20primeiros%20resultados%3C/div%3E%3Cspan%3E%20-%20Tamanho%20:%20Inteiro%3C/span%3E%3Cdiv%3E%20Tamanho%20m%C3%A1ximo%20de%20resultados%20retornados%3C/div%3E%3Cspan%3E%20-%20Filtro%20:%20Texto%3C/span%3E%3Cdiv%3E%20Filtro%20a%20ser%20usado.%20Ex:%20name%20=%20'cronapp'%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Lista%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapp.elastic.CronappElastic.search','cronapp.elastic.CronappElastic.search')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+            <mutation name="{{cronapp.elastic.CronappElastic.search}}" return-raw-type="cronapi.Var">
+              <arg cronapi-raw-type="org.elasticsearch.client.RestHighLevelClient" cronapi-type="ObjectType.OBJECT" name="Contexto"/>
+              <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Índice"/>
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Deslocamento"/>
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tamanho"/>
+              <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Filtro"/>
+            </mutation>
+            <value name="ARG0">
+              <block asynccall="false" colour="#487f7f" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id="d6T%0[s6xYUyt~{;cM`p" multilayer="false" namespace="cronapi.util.Operations.callBlockly" origintype="procedures_callblockly_callreturn" output="true" returntype="ObjectType.OBJECT" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EChamar%20Bloco%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20chamar%20um%20bloco%20de%20programa%C3%A7ao%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Bloco%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Nome%20do%20bloco%3C/div%3E%3Cspan%3E%20-%20Par%C3%A2metros%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Par%C3%A2metros%20a%20serem%20passados%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.util.Operations.callBlockly','cronapi.util.Operations.callBlockly')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callblockly_callreturn" valueconstant="">
+                <mutation data="%7B%22name%22:%22Elastick%22,%22class%22:%22blockly.Elastick%22,%22function%22:%22criarcontexto%22,%22oldName%22:%22criarcontexto%22,%22params%22:%22%5B%5D%22,%22type%22:%22java%22,%22namespace%22:%22blockly.Elastick%22,%22jsonBlocklySelected%22:%7B%22library%22:false,%22namespace%22:%22blockly.Elastick%22,%22sourcePath%22:%22src/main/java/blockly/Elastick.blockly%22,%22language%22:%22java%22,%22class%22:%22blockly.Elastick%22,%22methods%22:%5B%7B%22name%22:%22fechar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22contexto%22%5D,%22paramsMap%22:%7B%22contexto%22:%22731904ab%22%7D%7D,%7B%22name%22:%22removerporid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22removeid%22,%22removeindice%22%5D,%22paramsMap%22:%7B%22removeid%22:%22e3f41863%22,%22removeindice%22:%228c2a7c31%22%7D%7D,%7B%22name%22:%22atualizaID%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22atualizaid%22,%22conteudo%22,%22indiceatualiza%22%5D,%22paramsMap%22:%7B%22atualizaid%22:%22b443358c%22,%22conteudo%22:%22d30fe43b%22,%22indiceatualiza%22:%22473067da%22%7D%7D,%7B%22name%22:%22inserir%22,%22hasReturn%22:%22false%22,%22params%22:%5B%22indice%22,%22id%22,%22json%22%5D,%22paramsMap%22:%7B%22indice%22:%22a4cd6df6%22,%22id%22:%220a48a060%22,%22json%22:%22ae4e4a48%22%7D%7D,%7B%22name%22:%22Pesquisar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22filtro%22,%22indicepes%22%5D,%22paramsMap%22:%7B%22filtro%22:%228aa2415e%22,%22indicepes%22:%22c826e5d7%22%7D%7D,%7B%22name%22:%22criarcontexto%22,%22hasReturn%22:%22true%22,%22params%22:%5B%5D%7D,%7B%22name%22:%22obterid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22obterid%22,%22obterindice%22%5D,%22paramsMap%22:%7B%22obterid%22:%222af3b78e%22,%22obterindice%22:%22117acfd2%22%7D%7D%5D%7D%7D" name="{{cronapi.util.Operations.callBlockly}}"/>
+              </block>
+            </value>
+            <value name="ARG1">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id="FJSPA5ZNWFZ1z%zd0%n," origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                <field customattributes="" name="TEXT">0</field>
+              </shadow>
+              <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id="x_sUiyf-GzUTgDS;-N|L" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                <field customattributes="" name="VAR">indicepes</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id="*^pe#*Ec-.?q~67(q}7;" origintype="math_number" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="math_number" valueconstant="">
+                <field customattributes="" name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="ARG3">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id=".V4fA2cKxk0WTCCw3B$v" origintype="math_number" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="math_number" valueconstant="">
+                <field customattributes="" name="NUM">300</field>
+              </shadow>
+            </value>
+            <value name="ARG4">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id="SXWIE]g-`17Rv|/PwH0G" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                <field customattributes="" name="TEXT"/>
+              </shadow>
+              <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="^.MF,1:eBkwhH=QtDAGX" id="^Gb?M^N,al{MGBZ*|N(~" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                <field customattributes="" name="VAR">filtro</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-98" y="416">
+    <field customattributes="" name="NAME">criarcontexto</field>
+    <value name="RETURN">
+      <block asynccall="false" colour="#488e3e" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="E!5CeC,Zfu-:[niqeC7%" multilayer="false" namespace="cronapp.elastic.CronappElastic.configure" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EElastic%20Search:%20Criar%20Contexto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EConfigura%20contexto%20do%20Elastic%20Search%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Namespace%20:%20Texto%3C/span%3E%3Cdiv%3E%20Contexto%20do%20Elastic%20Search.%20Se%20nula,%20o%20id%20da%20aplica%C3%A7%C3%A3o%20ser%C3%A1%20usado%20%3C/div%3E%3Cspan%3E%20-%20Host%20:%20Texto%3C/span%3E%3Cdiv%3E%20Url%20do%20servidor%20do%20Elastic%20Search%3C/div%3E%3Cspan%3E%20-%20Usu%C3%A1rio%20:%20Texto%3C/span%3E%3Cdiv%3E%20Usu%C3%A1rio%20de%20acesso%20ao%20servidor%3C/div%3E%3Cspan%3E%20-%20Senha%20:%20Texto%3C/span%3E%3Cdiv%3E%20Senha%20de%20acesso%20ao%20servidor%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapp.elastic.CronappElastic.configure','cronapp.elastic.CronappElastic.configure')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+        <mutation name="{{cronapp.elastic.CronappElastic.configure}}" return-raw-type="org.elasticsearch.client.RestHighLevelClient">
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Namespace"/>
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Host"/>
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Usuário"/>
+          <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Senha"/>
+        </mutation>
+        <value name="ARG0">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="T_:MT3I~Ql:Q58:^?f!Y" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT">online</field>
+          </shadow>
+          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="WRpg_+~2KijTbHq1AM|H" multilayer="false" namespace="cronapi.screen.Operations.getValueOfField" origintype="procedures_callreturn" output="true" returntype="ObjectType.JSON" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Json%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.Operations.getValueOfField','cronapi.screen.Operations.getValueOfField')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+            <mutation name="{{cronapi.screen.Operations.getValueOfField}}" return-raw-type="cronapi.Var">
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="Campo"/>
+            </mutation>
+            <value name="ARG0">
+              <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="I{7*yGXM$lS!o$/Dubym" origintype="form_fieldscreen_callreturn" output="true" score="9007199254740991" type="form_fieldscreen_callreturn" valueconstant="">
+                <field customattributes="" name="SELECT">vars.contexto</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Q.72K-)MDpaTTS~|g#}5" origintype="cloudservices" output="true" prototypeoptions="service:type=elasticsearch-kibana" score="9007199254740991" type="cloudservices" valueconstant="">
+            <field customattributes="" name="SELECT">qaelasticprod.cloud.cronapp.io</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Y~LzydteNydcyIGVO,sX" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT">elastic</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="))lnz{8jXX9oEQq@Ht$6" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT">PassW0rd</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="H_CCsg{qpdAkuBPv[IhA" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-19" y="421">
+    <mutation>
+      <arg id="2af3b78e" name="obterid"/>
+      <arg id="117acfd2" name="obterindice"/>
+    </mutation>
+    <field customattributes="" name="NAME">obterid</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="*n]a0~FXA51LyZr|6Q[#" origintype="variables_set" output="false" score="9007199254740991" tooltip="Define esta variável para o valor da entrada." type="variables_set" valueconstant="">
+        <field customattributes="" name="VAR">item</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#0e9a6c" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="Bcqy-MR$[wlHK4-l[w+4" multilayer="false" namespace="cronapi.conversion.Operations.toString" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EConverter%20para%20texto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20converter%20para%20texto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Conte%C3%BAdo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.conversion.Operations.toString','cronapi.conversion.Operations.toString')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+            <mutation name="{{cronapi.conversion.Operations.toString}}" return-raw-type="cronapi.Var">
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Conteúdo"/>
+            </mutation>
+            <value name="ARG0">
+              <block asynccall="false" colour="#488e3e" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="bIoCu.9twdPWp_NkY3=S" multilayer="false" namespace="cronapp.elastic.CronappElastic.getById" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EElastic%20Search:%20Obter%20por%20Id%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EObt%C3%A9m%20um%20conte%C3%BAdo%20no%20Elastic%20Search%20atrav%C3%A9s%20do%20seu%20Id%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Contexto%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Contexto%20do%20Elastic%20Search.%20Se%20nulo,%20usa%20o%20contexto%20da%20aplica%C3%A7%C3%A3o%3C/div%3E%3Cspan%3E%20-%20%C3%8Dndice%20:%20Texto%3C/span%3E%3Cdiv%3E%20%C3%8Dndice%20usado%3C/div%3E%3Cspan%3E%20-%20Id%20:%20Texto%3C/span%3E%3Cdiv%3E%20Identificador%20do%20Conte%C3%BAdo%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapp.elastic.CronappElastic.getById','cronapp.elastic.CronappElastic.getById')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+                <mutation name="{{cronapp.elastic.CronappElastic.getById}}" return-raw-type="cronapi.Var">
+                  <arg cronapi-raw-type="org.elasticsearch.client.RestHighLevelClient" cronapi-type="ObjectType.OBJECT" name="Contexto"/>
+                  <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Índice"/>
+                  <arg cronapi-raw-type="java.lang.String" cronapi-type="ObjectType.STRING" name="Id"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#487f7f" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="/Q}Qx63+02Do,@`u5M3F" multilayer="false" namespace="cronapi.util.Operations.callBlockly" origintype="procedures_callblockly_callreturn" output="true" returntype="ObjectType.OBJECT" score="13" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EChamar%20Bloco%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20chamar%20um%20bloco%20de%20programa%C3%A7ao%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Bloco%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Nome%20do%20bloco%3C/div%3E%3Cspan%3E%20-%20Par%C3%A2metros%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Par%C3%A2metros%20a%20serem%20passados%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.util.Operations.callBlockly','cronapi.util.Operations.callBlockly')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callblockly_callreturn" valueconstant="">
+                    <mutation data="%7B%22name%22:%22Elastick%22,%22class%22:%22blockly.Elastick%22,%22function%22:%22criarcontexto%22,%22oldName%22:%22criarcontexto%22,%22params%22:%22%5B%5D%22,%22type%22:%22java%22,%22namespace%22:%22blockly.Elastick%22,%22jsonBlocklySelected%22:%7B%22library%22:false,%22namespace%22:%22blockly.Elastick%22,%22sourcePath%22:%22src/main/java/blockly/Elastick.blockly%22,%22language%22:%22java%22,%22class%22:%22blockly.Elastick%22,%22methods%22:%5B%7B%22name%22:%22fechar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22contexto%22%5D,%22paramsMap%22:%7B%22contexto%22:%22731904ab%22%7D%7D,%7B%22name%22:%22removerporid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22removeid%22,%22removeindice%22%5D,%22paramsMap%22:%7B%22removeid%22:%22e3f41863%22,%22removeindice%22:%228c2a7c31%22%7D%7D,%7B%22name%22:%22inserir%22,%22hasReturn%22:%22false%22,%22params%22:%5B%22indice%22,%22id%22,%22json%22%5D,%22paramsMap%22:%7B%22indice%22:%22a4cd6df6%22,%22id%22:%220a48a060%22,%22json%22:%22ae4e4a48%22%7D%7D,%7B%22name%22:%22atualizaID%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22atualizaid%22,%22conteudo%22,%22indiceatualiza%22%5D,%22paramsMap%22:%7B%22atualizaid%22:%22b443358c%22,%22conteudo%22:%22d30fe43b%22,%22indiceatualiza%22:%22473067da%22%7D%7D,%7B%22name%22:%22Pesquisar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22filtro%22,%22indicepes%22%5D,%22paramsMap%22:%7B%22filtro%22:%228aa2415e%22,%22indicepes%22:%22c826e5d7%22%7D%7D,%7B%22name%22:%22criarcontexto%22,%22hasReturn%22:%22true%22,%22params%22:%5B%5D%7D,%7B%22name%22:%22obterid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22obterid%22,%22obterindice%22%5D,%22paramsMap%22:%7B%22obterid%22:%222af3b78e%22,%22obterindice%22:%22117acfd2%22%7D%7D%5D%7D%7D" name="{{cronapi.util.Operations.callBlockly}}"/>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="1#6(N(Mn:SLixpoI|kso" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT"/>
+                  </shadow>
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="Zx:o*#i2y3+FaI9n(uwW" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                    <field customattributes="" name="VAR">obterindice</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="jC1Mh/RvhMD.g364IE=)" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT"/>
+                  </shadow>
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="8qsg8A#^8{q1#jwz5Dl{" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                    <field customattributes="" name="VAR">obterid</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="ci{KmQ]go?CX9h}qDoRe" multilayer="true" namespace="cronapi.screen.notify" origintype="notify_type" output="false" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20da%20notifica%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cdiv%3E%20pode%20ser%20success,%20error,%20warning,%20info%20ou%20primary%3C/div%3E%3Cspan%3E%20-%20Mensagem%20:%20Texto%3C/span%3E%3Cdiv%3E%20Mensagem%20ou%20conte%C3%BAdo%20html%20a%20ser%20exibido%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.notify','cronapi.screen.notify')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="notify_type" valueconstant="">
+            <mutation name="{{cronapi.screen.notify}}" value="[object Object]"/>
+            <field customattributes="" name="SELECT">success</field>
+            <value name="MESSAGE">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="plu,=JTB1W0_B`j*TnT8" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                <field customattributes="" name="TEXT"/>
+              </shadow>
+              <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="H_CCsg{qpdAkuBPv[IhA" id="C/Jw4Sa{aa:Jq72oE_7u" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                <field customattributes="" name="VAR">item</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#487f7f" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id="[Gp%9@2e##Y`:G}^mIkU" multilayer="false" namespace="cronapi.util.Operations.callBlockly" origintype="procedures_callblockly_callreturn" output="true" returntype="ObjectType.OBJECT" score="9" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EChamar%20Bloco%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20chamar%20um%20bloco%20de%20programa%C3%A7ao%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Bloco%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Nome%20do%20bloco%3C/div%3E%3Cspan%3E%20-%20Par%C3%A2metros%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Par%C3%A2metros%20a%20serem%20passados%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.util.Operations.callBlockly','cronapi.util.Operations.callBlockly')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callblockly_callreturn" valueconstant="" x="338" y="638">
+    <mutation data="%7B%22name%22:%22Elastick%22,%22class%22:%22blockly.Elastick%22,%22function%22:%22criarcontexto%22,%22oldName%22:%22criarcontexto%22,%22params%22:%22%5B%5D%22,%22type%22:%22java%22,%22namespace%22:%22blockly.Elastick%22,%22jsonBlocklySelected%22:%7B%22library%22:false,%22namespace%22:%22blockly.Elastick%22,%22sourcePath%22:%22src/main/java/blockly/Elastick.blockly%22,%22language%22:%22java%22,%22class%22:%22blockly.Elastick%22,%22methods%22:%5B%7B%22name%22:%22fechar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22contexto%22%5D,%22paramsMap%22:%7B%22contexto%22:%22731904ab%22%7D%7D,%7B%22name%22:%22removerporid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22removeid%22,%22removeindice%22%5D,%22paramsMap%22:%7B%22removeid%22:%22e3f41863%22,%22removeindice%22:%228c2a7c31%22%7D%7D,%7B%22name%22:%22inserir%22,%22hasReturn%22:%22false%22,%22params%22:%5B%22indice%22,%22id%22,%22json%22%5D,%22paramsMap%22:%7B%22indice%22:%22a4cd6df6%22,%22id%22:%220a48a060%22,%22json%22:%22ae4e4a48%22%7D%7D,%7B%22name%22:%22atualizaID%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22atualizaid%22,%22conteudo%22,%22indiceatualiza%22%5D,%22paramsMap%22:%7B%22atualizaid%22:%22b443358c%22,%22conteudo%22:%22d30fe43b%22,%22indiceatualiza%22:%22473067da%22%7D%7D,%7B%22name%22:%22Pesquisar%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22filtro%22,%22indicepes%22%5D,%22paramsMap%22:%7B%22filtro%22:%228aa2415e%22,%22indicepes%22:%22c826e5d7%22%7D%7D,%7B%22name%22:%22criarcontexto%22,%22hasReturn%22:%22true%22,%22params%22:%5B%5D%7D,%7B%22name%22:%22obterid%22,%22hasReturn%22:%22true%22,%22params%22:%5B%22obterid%22,%22obterindice%22%5D,%22paramsMap%22:%7B%22obterid%22:%222af3b78e%22,%22obterindice%22:%22117acfd2%22%7D%7D%5D%7D%7D" name="{{cronapi.util.Operations.callBlockly}}"/>
+  </block>
+  <block asynccall="false" colour="#fca03b" datasourcetype="" dependencyby="8!eX]uE^V1o+%=y785nG" id=":yW]Z_ZvvI=VT|1,#KGq" inline="false" origintype="procedures_callreturn" output="true" score="9007199254740991" tooltip="Executa a função definida pelo usuário &quot;criarcontexto&quot; e usa seu retorno." type="procedures_callreturn" valueconstant="" x="8" y="668">
+    <mutation name="criarcontexto" return-raw-type="undefined"/>
+  </block>
+  <block asynccall="false" colour="#0e9a6c" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="(QT}e(2|YvP=t.R]Czi_" multilayer="false" namespace="cronapi.conversion.Operations.toString" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EConverter%20para%20texto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20converter%20para%20texto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Conte%C3%BAdo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.conversion.Operations.toString','cronapi.conversion.Operations.toString')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="" x="398" y="698">
+    <mutation name="{{cronapi.conversion.Operations.toString}}" return-raw-type="cronapi.Var">
+      <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Conteúdo"/>
+    </mutation>
+  </block>
+  <block asynccall="false" colour="#4f7ba8" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="5K~,LkCgDaB03Z`IdMH/" multilayer="false" namespace="cronapi.json.Operations.toJson" origintype="procedures_callreturn" output="true" returntype="ObjectType.JSON" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EPara%20Json%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20converter%20Texto%20ou%20Arquivo%20para%20Json%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Valor%20a%20ser%20lido%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Texto%20ou%20Arquivo%20(Retorno%20da%20fun%C3%A7%C3%A3o%20%22Abrir%20arquivo%20para%20leitura%22)%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Json%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-a.cronapp.io/help?type=blockly&amp;amp;id=cronapi.json.Operations.toJson','cronapi.json.Operations.toJson')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="" x="173" y="923">
+    <mutation name="{{cronapi.json.Operations.toJson}}" return-raw-type="cronapi.Var">
+      <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Valor a ser lido"/>
+    </mutation>
+  </block>
+</blockly>

@@ -1,0 +1,50 @@
+[
+  {
+    "gluonsoftId": "FD4F872F-59FC-42E1-938D-32EF9FBC16DB",
+    "versionId": "2cc6fb9e-94b5-4f7b-a327-27dee0acaf8f",
+    "name": "Cloud Services: Elastic Search",
+    "version": null,
+    "dateAdded": "2024-07-15 14:41:29",
+    "filesMerged": [
+      {
+        "name": "pom.xml",
+        "path": "/pom.xml",
+        "mavenDependecies": [
+          {
+            "artifactId": "cronapp-elastic",
+            "classifier": null,
+            "groupId": "io.cronapp",
+            "scope": null,
+            "systemPath": null,
+            "type": null,
+            "version": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "gluonsoftId": "ED722FDF-0D17-4059-A4E6-4F58B491A3C8",
+    "versionId": "59c1c346-9ca4-4e09-af33-c9a37f5478c5",
+    "name": "Cloud Services: HazelCast (Cache)",
+    "version": null,
+    "dateAdded": "2024-07-15 15:04:28",
+    "filesMerged": [
+      {
+        "name": "pom.xml",
+        "path": "/pom.xml",
+        "mavenDependecies": [
+          {
+            "artifactId": "cronapp-hazelcast",
+            "classifier": null,
+            "groupId": "io.cronapp",
+            "scope": null,
+            "systemPath": null,
+            "type": null,
+            "version": null
+          }
+        ]
+      }
+    ]
+  }
+]
